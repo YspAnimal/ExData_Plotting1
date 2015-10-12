@@ -27,7 +27,7 @@ PowerDataFeb$Time <- strptime(PowerDataFeb$timetemp, format = "%Y-%m-%d %H:%M:%S
 
 #Open graphic device PNG and Draw figure Histogram
 png(filename = "plot1.png", width = 480, height = 480, units = "px")
-hist(PowerDataFeb$Global_active_power, col = "red", main = "Global Active Power", xlab = "Globa Active Power (kilowatts)", border = "gray")
+hist(PowerDataFeb$Global_active_power, col = "red", main = "Global Active Power", xlab = "Globa Active Power (kilowatts)")
 dev.off()
 
 
